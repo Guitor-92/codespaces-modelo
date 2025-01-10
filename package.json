@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://guitor-92.github.io/codeespaces-modelo",
+  "homepage": "https://guitor-92.github.io/codespaces-modelo",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://guitor-92.github.io/codeespaces-modelo'",
+    "build-gh": "parcel build --public-url 'https://guitor-92.github.io/codespaces-modelo'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
