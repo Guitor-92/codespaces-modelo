@@ -38,11 +38,9 @@ const projectList = [
   },
   {
     title: "Portfolio",
-    description:
-      "Atividade educacional da matéria de desenvolvimento frontend",
+    description: "Atividade educacional da matéria de desenvolvimento frontend",
     url: " Guilherme Vitor",
   },
-
 ];
 
 const Portfolio = () => {
@@ -53,7 +51,8 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            // eslint-disable-next-line prettier/prettier
+            style={{height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft"}}
             alt={imageAltText}
           />
         </div>
